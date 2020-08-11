@@ -8,12 +8,31 @@ const Idiomas = () => {
     return (
         <div className={styles.wrapper}>
         <PageTitle title='Idiomas'/>
-          <div className={styles.idiomasDivButton}>
+          <div className={styles.idiomasDiv}>
             <Link href='/'>
               <button className={styles.idiomasButton}><a>Home</a></button>
             </Link>
+            <div className={styles.idiomasFlex}>
+                <div className={styles.idiomasFlex1}>  
+                  <Link href='/cursos'>
+                     <button className={styles.idiomasButton}><a>Cursos</a></button>
+                  </Link>
+                  <Link href='/educacao'>
+                     <button className={styles.idiomasButton}><a>Educação</a></button>
+                  </Link>
+                </div>
+                <div className={styles.idiomasFlex1}>
+                  <Link href='/reconhe'>
+                    <button className={styles.idiomasButton}><a>Reconhecimento</a></button>
+                  </Link>
+                  <Link href='/experiencia'>
+                    <button className={styles.idiomasButton}><a>Experiência</a></button>
+                  </Link>
+                </div>
+            </div>            
           </div>
           <div className={styles.idiomasDiv}>
+            <h2 className={styles.idiomasH2}>Línguas</h2>
             <div className={styles.idiomasFlex}>
               <div className={styles.idiomasFlex1}>
                 <h3>Espanhol</h3>

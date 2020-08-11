@@ -8,10 +8,28 @@ const Reconhe = () => {
     return (
         <div className={styles.wrapper}>
         <PageTitle title='Reconhecimento'/>
-          <div className={styles.reconheDivButton}>
-            <Link href='/'>
-              <button className={styles.reconheButton}><a>Home</a></button>
+        <div className={styles.reconheDiv}>
+        <Link href='/'>
+           <button className={styles.reconheButton}><a>Home</a></button>
+        </Link>
+        <div className={styles.reconheFlex}>
+          <div className={styles.reconheFlex1}>  
+            <Link href='/cursos'>
+              <button className={styles.reconheButton}><a>Cursos</a></button>
             </Link>
+            <Link href='/educacao'>
+              <button className={styles.reconheButton}><a>Educação</a></button>
+            </Link>
+          </div>
+            <div className={styles.reconheFlex1}>
+              <Link href='/idiomas'>
+                <button className={styles.reconheButton}><a>Línguas</a></button>
+              </Link>
+              <Link href='/experiencia'>
+                <button className={styles.reconheButton}><a>Experiência</a></button>
+              </Link>
+            </div>
+            </div>            
           </div>
           <div>
             <div className={styles.reconheDiv}>

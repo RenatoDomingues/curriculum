@@ -1,6 +1,11 @@
 
 .wrapper {
-    @apply flex flex-1 bg-blue-200 px-2 py-2 m-2;
+    @apply bg-blue-200 m-2;
+    display: grid;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
 }
 
 .logosFlex {
@@ -86,7 +91,7 @@
     @apply text-purple-500 text-left p-4 font-bold m-2;
 }
 .educacaoButton {
-    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded;
+    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
 }
 .educacaoH4 {
     @apply text-white font-bold;
@@ -115,7 +120,7 @@
     @apply text-center font-bold bg-blue-300 rounded m-1;
 }
 .cursosButton {
-    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded;
+    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
 }
 .cursosP {
     @apply text-white font-bold text-center;
@@ -136,7 +141,7 @@
     @apply text-white font-bold text-center p-2;
 }
 .reconheButton {
-    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded;
+    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
 }
 .reconheStrongP {
     @apply text-purple-500 font-bold;
@@ -160,7 +165,10 @@
     @apply flex p-2;
 }
 .idiomasFlex1{
-    @apply flex-1 text-purple-500 font-bold p-1 m-2 shadow-lg;
+    @apply flex-1 text-purple-500 font-bold p-1 m-2;
+}
+.idiomasH2 {
+    @apply text-purple-500 text-left p-4 font-bold m-2;
 }
 .idiomasH4 {
     @apply text-white font-bold;
@@ -175,7 +183,7 @@
     @apply text-center font-bold bg-blue-300 rounded m-1;
 }
 .idiomasButton {
-    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded;
+    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
 }
 
 
@@ -187,7 +195,13 @@
     @apply flex p-1;
 }
 .experienciasFlex1 {
+    @apply flex-1 text-purple-500 font-bold p-1 m-1;
+}
+.experienciaSflex1 {
     @apply flex-1 text-purple-500 font-bold p-1 m-1 shadow-lg;
+}
+.experienciasH2 {
+    @apply text-purple-500 text-left p-4 font-bold m-2;
 }
 .experienciasP {
     @apply text-white font-bold text-center p-1;
@@ -199,7 +213,7 @@
     @apply text-center font-bold bg-blue-300 rounded m-1;
 }
 .experienciasButton {
-    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded;
+    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
 }
 
 
