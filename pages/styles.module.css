@@ -1,0 +1,209 @@
+
+.wrapper {
+    @apply flex flex-1 bg-blue-200 px-2 py-2 m-2;
+}
+
+.logosFlex {
+    @apply flex p-1;
+}
+.logosFlex1 {
+    @apply flex-1 text-purple-500 font-bold p-1 m-1 shadow-lg;
+}
+.logosH3 {
+    @apply text-white font-bold text-left p-1;
+}
+
+
+
+.headeRwrapper {
+    @apply bg-blue-200 m-2;
+}
+.headerH1 {
+    @apply border-solid text-purple-500 font-bold shadow-lg;
+}
+.headerH2 {
+    @apply text-purple-500 font-bold;
+}
+.headerP1 {
+    @apply text-white font-bold text-center cursor-pointer;
+}
+.headerP {
+    @apply text-white font-bold text-center px-4 py-2 m-2 shadow-lg rounded;
+}
+.headerSize3 {
+    @apply float-none mb-4 h-32;
+}
+.headerSize {
+    @apply flex items-center;
+}
+.headerSize2 {
+    @apply flex-1 m-2 px-8;
+}
+
+
+.div {
+    @apply text-center font-bold bg-blue-300 p-4 rounded m-2;
+}
+.h2 {
+    @apply border-solid text-purple-500 font-bold cursor-pointer shadow-lg;
+}
+.p {
+    @apply text-white font-bold text-center;
+}
+.experiencia {
+    @apply flex m-2;
+}
+.experiencia1 {
+    @apply flex-auto text-white font-bold text-center px-4 py-2 m-2 shadow-lg;
+}
+.idiomaFlex{
+    @apply flex;
+}
+.idiomaFlex1{
+    @apply flex-1;
+}
+.colorPurple {
+    @apply text-purple-500 font-bold;
+}
+.size {
+    @apply flex items-center;
+}
+.size2 {
+    @apply flex-1 m-2 px-8;
+}
+
+
+.educacaoDiv {
+    @apply text-center font-bold bg-blue-300 rounded m-1;
+}
+.educacaoFlex{
+    @apply flex;
+}
+.educacaoFlex1{
+    @apply flex-1 text-purple-500 font-bold p-4 m-2;
+}
+.educacaoH2 {
+    @apply text-purple-500 text-left p-4 font-bold m-2;
+}
+.educacaoButton {
+    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded;
+}
+.educacaoH4 {
+    @apply text-white font-bold;
+}
+
+
+.cursosFlex{
+    @apply flex p-2;
+}
+.cursosFlex1{
+    @apply flex-1 text-purple-500 font-bold p-4 m-2;
+}
+.cursosFlex2{
+    @apply flex-1 text-purple-500 font-bold;
+}
+.cursosDiv {
+    @apply text-center font-bold bg-blue-300 rounded m-2;
+}
+.cursosH2 {
+    @apply text-purple-500 text-left p-2 font-bold;
+}
+.cursosH4 {
+    @apply text-white font-bold;
+}
+.cursosDiv {
+    @apply text-center font-bold bg-blue-300 rounded m-1;
+}
+.cursosButton {
+    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded;
+}
+.cursosP {
+    @apply text-white font-bold text-center;
+}
+
+
+
+.reconheDiv {
+    @apply text-center font-bold bg-blue-300 rounded m-2;
+}
+.reconheDivButton {
+    @apply text-center font-bold bg-blue-300 rounded m-1;
+}
+.reconheH2 {
+    @apply text-purple-500 text-left p-4 font-bold m-2;
+}
+.reconheP {
+    @apply text-white font-bold text-center p-2;
+}
+.reconheButton {
+    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded;
+}
+.reconheStrongP {
+    @apply text-purple-500 font-bold;
+}
+.reconheDivLojas {
+    @apply text-center font-bold bg-blue-300 rounded m-1;
+}
+.reconheFlex{
+    @apply flex;
+}
+.reconheFlex1{
+    @apply flex-1 text-purple-500 font-bold p-4 m-2;
+}
+
+
+
+.idiomasDiv {
+    @apply text-center font-bold bg-blue-300 rounded m-2 p-4;
+}
+.idiomasFlex{
+    @apply flex p-2;
+}
+.idiomasFlex1{
+    @apply flex-1 text-purple-500 font-bold p-1 m-2 shadow-lg;
+}
+.idiomasH4 {
+    @apply text-white font-bold;
+}
+.idiomasP {
+    @apply text-white font-bold text-center p-2;
+}
+.idiomasCerfificado {
+    @apply p-1 m-1;
+}
+.idiomasDivButton {
+    @apply text-center font-bold bg-blue-300 rounded m-1;
+}
+.idiomasButton {
+    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded;
+}
+
+
+
+.experienciasDiv {
+    @apply text-center font-bold bg-blue-300 rounded m-2 p-4;
+}
+.experienciasFlex {
+    @apply flex p-1;
+}
+.experienciasFlex1 {
+    @apply flex-1 text-purple-500 font-bold p-1 m-1 shadow-lg;
+}
+.experienciasP {
+    @apply text-white font-bold text-center p-1;
+}
+.experienciasH4 {
+    @apply text-white font-bold text-center p-1;
+}
+.experienciasDivButton {
+    @apply text-center font-bold bg-blue-300 rounded m-1;
+}
+.experienciasButton {
+    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded;
+}
+
+
+
+.footerP {
+    @apply bg-blue-300 text-white font-bold text-center px-4 py-2 m-2 shadow-lg rounded;
+}
