@@ -3,6 +3,12 @@
 
 HitCount
 
+# Projeto se encontra no vercel
+
+* Meu projeto [curriculum](curriculum-h7112z2gb.vercel.app) ou (curriculum-tau.vercel.app)
+
+* Site oficial da [vercel.com](https://vercel.com)
+
 # Início 
 
 Do curso FullStack Master, desafio de ter seu curriculo online.
@@ -27,7 +33,7 @@ npm run dev
 
 # Author:
 
-* **Renato Domingues** - [LinkedIn]()
+* **Renato Domingues** - [LinkedIn](linkedin.com/in/renato-domingues-silva-094b971b0)
 
 ## Acknowledgments
 
