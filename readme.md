@@ -5,7 +5,8 @@ HitCount
 
 # Projeto se encontra no vercel
 
-* Meu projeto [curriculum](curriculum-h7112z2gb.vercel.app) ou (curriculum-tau.vercel.app)
+* Meu projeto [curriculum](curriculum-h7112z2gb.vercel.app) ou [curriculum](curriculum-tau.vercel.app)
+* curriculum-h7112z2gb.vercel.app ou curriculum-tau.vercel.app
 
 * Site oficial da [vercel.com](https://vercel.com)
 
@@ -33,7 +34,7 @@ npm run dev
 
 # Author:
 
-* **Renato Domingues** - [LinkedIn](linkedin.com/in/renato-domingues-silva-094b971b0)
+* **Renato Domingues** - [LinkedIn](linkedin.com/in/renato-domingues-silva-094b971b0/)
 
 ## Acknowledgments
 
