@@ -10,15 +10,12 @@
 @media (max-width: 640px 800px) {
     .wrapper {
         background: green;
-        width: 28.33%;
     }
     .experienciasDiv {
         @apply text-center font-bold bg-blue-300 rounded m-2 p-4;
-        width: 28.33%;
     }
     .div {
         @apply text-center font-bold bg-blue-300 p-4 rounded m-2;
-        width: 28.33%;
     }
 }
 @media (min-width: 768px 800px) {
