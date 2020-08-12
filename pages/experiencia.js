@@ -8,7 +8,7 @@ const Experiencias = () => {
     return (
       <div className={styles.wrapper}>
         <PageTitle title='Expêriencias'/>
-        <div className={styles.experienciasDiv}>
+          <div className={styles.experienciasDiv}>
             <Link href='/'>
               <button className={styles.experienciasButton}><a>Home</a></button>
             </Link>
@@ -106,7 +106,7 @@ const Experiencias = () => {
               </div>          
             </div>
           </div>
-        </div>
+      </div>
     )
 }
 

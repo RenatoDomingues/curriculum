@@ -1,11 +1,24 @@
 
 .wrapper {
     @apply bg-blue-200 m-2;
-    contain: mx-auto;
+    container: mx-auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-@media (min-width: 640px 800px) {
+@media (max-width: 640px 800px) {
     .wrapper {
         background: green;
+        width: 28.33%;
+    }
+    .experienciasDiv {
+        @apply text-center font-bold bg-blue-300 rounded m-2 p-4;
+        width: 28.33%;
+    }
+    .div {
+        @apply text-center font-bold bg-blue-300 p-4 rounded m-2;
+        width: 28.33%;
     }
 }
 @media (min-width: 768px 800px) {
@@ -21,6 +34,11 @@
 @media (min-width: 1280px 800px) {
     .wrapper {
         background: pink;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
