@@ -61,7 +61,7 @@
     @apply float-none mb-4 h-32;
 }
 .headerSize {
-    @apply flex items-center flex-wrap;
+    @apply flex items-center p-1 m-1 flex-wrap;
 }
 .headerSize2 {
     @apply flex-1 m-2 px-8 flex-wrap;

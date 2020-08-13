@@ -67,7 +67,7 @@ const Index = () => {
 
           <div className={styles.div}>
             <Link href='/reconhe'>
-              <h2 className={styles.h2}>Reconhecimentos</h2>
+              <h2 className={styles.h2}>Reconhecimento</h2>
             </Link>
               <p className={styles.p}>Atacado obtive 04 certificados por mérito de ser um entre dos 100 melhores vendedores(a) que atingiram meta anual e junto cobria férias dos subgerente.</p>
           </div>
