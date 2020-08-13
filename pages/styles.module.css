@@ -64,7 +64,7 @@
     @apply flex items-center flex-wrap;
 }
 .headerSize2 {
-    @apply flex-1 m-2 px-8;
+    @apply flex-1 m-2 px-8 flex-wrap;
 }
 
 
@@ -188,7 +188,7 @@
     @apply flex-wrap text-center font-bold bg-blue-300 rounded m-2 p-2;
 }
 .idiomasFlex{
-    @apply flex p-2;
+    @apply flex p-2 flex-wrap;
 }
 .idiomasFlex1{
     @apply flex-1 text-purple-500 font-bold p-1 m-2 shadow-lg;
