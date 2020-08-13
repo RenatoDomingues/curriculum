@@ -9,13 +9,13 @@ const Header = () => {
               <div className={styles.wrapper}>
                   <div className={styles.headerSize}>
                     <div className={styles.headerSize2}>
-                      <img className={styles.headerSize3} src='../../photoBackground.jpg' width='80%' height='100%'/>
+                      <img className={styles.headerSize3} src='../../photoBackground.jpg' width='90%' height='90%'/>
                     </div>
                     <div className={styles.headerSize2}>
-                      <img className={styles.headerSize3} src='../../fotoCurri.jpg' alt='foto' width='50%' height='50%'/>
+                      <img className={styles.headerSize3} src='../../fotoCurri.jpg' alt='foto' width='90%' height='90%'/>
                     </div>
                     <div className={styles.headerSize2}>
-                      <img className={styles.headerSize3} src='../../photoBackgroundDev.jpg' width='80%' height='100%'/>
+                      <img className={styles.headerSize3} src='../../photoBackgroundDev.jpg' width='90%' height='90%'/>
                     </div>
                   </div>
               </div>

@@ -13,7 +13,7 @@ const Idiomas = () => {
               <button className={styles.idiomasButton}><a>Home</a></button>
             </Link>
             <div className={styles.idiomasFlex}>
-                <div className={styles.idiomasFlex1}>  
+                <div className={styles.idiomasFlexButton}>  
                   <Link href='/cursos'>
                      <button className={styles.idiomasButton}><a>Cursos</a></button>
                   </Link>
@@ -21,7 +21,7 @@ const Idiomas = () => {
                      <button className={styles.idiomasButton}><a>Educação</a></button>
                   </Link>
                 </div>
-                <div className={styles.idiomasFlex1}>
+                <div className={styles.idiomasFlexButton}>
                   <Link href='/reconhe'>
                     <button className={styles.idiomasButton}><a>Reconhecimento</a></button>
                   </Link>

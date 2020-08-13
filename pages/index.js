@@ -15,37 +15,37 @@ const Index = () => {
              </div>
               <div className={styles.logosFlex}>
                 <div className={styles.logosFlex1}>
-                  <img src='../../logoNodeJS.png' alt='logo NodeJS' width='30%'/>
+                  <img src='../../logoNodeJS.png' alt='logo NodeJS' width='50%' height='50%'/>
                 </div>
                 <div className={styles.logosFlex1}>
-                  <img src='../../logoJavaScript.png' alt='logo JavaScript' width='30%'/>
+                  <img src='../../logoJavaScript.png' alt='logo JavaScript' width='50%' height='50%'/>
                 </div>
                 <div className={styles.logosFlex1}>
-                  <img src='../../logoReactNative.jpg' alt='logo ReactNative' width='30%'/>
+                  <img src='../../logoReactNative.jpg' alt='logo ReactNative' width='50%' height='50%'/>
                 </div>
                 <div className={styles.logosFlex1}>
-                  <img src='../../logoFireBase.png' alt='logo FireBase' width='30%'/>
+                  <img src='../../logoFireBase.png' alt='logo FireBase' width='50%' height='50%'/>
                 </div>
                 <div className={styles.logosFlex1}>
-                  <img src='../../logoHTML.png' alt='logo HTML' width='30%'/>
+                  <img src='../../logoHTML.png' alt='logo HTML' width='50%' height='50%'/>
                 </div>
               </div>
 
               <div className={styles.logosFlex}>
                 <div className={styles.logosFlex1}>
-                  <img src='../../logoMySQL.png' alt='logo MySQL' width='30%'/>
+                  <img src='../../logoMySQL.png' alt='logo MySQL' width='50%' height='50%'/>
                 </div>
                 <div className={styles.logosFlex1}>
-                  <img src='../../logoTailwindcss.png' alt='logo Tailwindcss' width='30%'/>
+                  <img src='../../logoTailwindcss.png' alt='logo Tailwindcss' width='50%' height='50%'/>
                 </div>
                 <div className={styles.logosFlex1}>
-                  <img src='../../logoCSS.png' alt='logo CSS' width='30%'/>
+                  <img src='../../logoCSS.png' alt='logo CSS' width='50%' height='50%'/>
                 </div>
                 <div className={styles.logosFlex1}>
-                  <img src='../../logoNext.jpg' alt='logo Next' width='30%'/>
+                  <img src='../../logoNext.jpg' alt='logo Next' width='50%' height='50%'/>
                 </div>
                 <div className={styles.logosFlex1}>
-                  <img src='../../logoExpress.jpg' alt='logo Express' width='30%'/>
+                  <img src='../../logoExpress.jpg' alt='logo Express' width='50%' height='50%'/>
                 </div>
               </div>
           </div>

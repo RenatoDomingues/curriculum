@@ -11,21 +11,6 @@
     .wrapper {
         background: green;
     }
-    .experienciasDiv {
-        @apply text-center font-bold bg-blue-300 rounded m-2 p-4;
-    }
-    .experienciasFlex {
-        @apply flex p-1;
-    }
-    .experienciasFlex1 {
-        @apply flex-1 text-purple-500 font-bold p-1 m-1 flex-wrap;
-    }
-    .experienciaSflex1 {
-        @apply flex-1 text-purple-500 font-bold p-1 m-1 shadow-lg flex-wrap;
-    }
-    .div {
-        @apply text-center font-bold bg-blue-300 p-4 rounded m-2;
-    }
 }
 @media (min-width: 768px 800px) {
     .wrapper {
@@ -40,11 +25,6 @@
 @media (min-width: 1280px 800px) {
     .wrapper {
         background: pink;
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 }
 
@@ -88,6 +68,8 @@
 }
 
 
+
+
 .div {
     @apply text-center font-bold bg-blue-300 p-4 rounded m-2;
 }
@@ -97,9 +79,11 @@
 .p {
     @apply text-white font-bold text-center;
 }
-.experiencia1 {
-    @apply flex-auto text-white font-bold text-center px-4 py-2 m-2 shadow-lg;
-}
+
+
+
+
+
 .idiomaFlex{
     @apply flex;
 }
@@ -204,6 +188,9 @@
     @apply flex p-2;
 }
 .idiomasFlex1{
+    @apply flex-1 text-purple-500 font-bold p-1 m-2 shadow-lg;
+}
+.idiomasFlexButton{
     @apply flex-1 text-purple-500 font-bold p-1 m-2;
 }
 .idiomasH2 {
@@ -230,6 +217,10 @@
 
 .experiencia {
     @apply flex m-2 flex-wrap;
+
+}
+.experiencia1 {
+    @apply flex-1 p-4 m-2 rounded shadow-lg;
 }
 .experienciasDiv {
     @apply text-center font-bold bg-blue-300 rounded m-2 p-4 flex-wrap;
@@ -263,4 +254,7 @@
 
 .footerP {
     @apply bg-blue-300 text-white font-bold text-center px-4 py-2 m-2 shadow-lg rounded;
+}
+.footerStrong {
+    @apply text-purple-500 p-4 font-bold m-2;
 }
