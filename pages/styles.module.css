@@ -18,10 +18,10 @@
         @apply flex p-1;
     }
     .experienciasFlex1 {
-        @apply flex-1 text-purple-500 font-bold p-1 m-1;
+        @apply flex-1 text-purple-500 font-bold p-1 m-1 flex-wrap;
     }
     .experienciaSflex1 {
-        @apply flex-1 text-purple-500 font-bold p-1 m-1 shadow-lg;
+        @apply flex-1 text-purple-500 font-bold p-1 m-1 shadow-lg flex-wrap;
     }
     .div {
         @apply text-center font-bold bg-blue-300 p-4 rounded m-2;
@@ -81,7 +81,7 @@
     @apply float-none mb-4 h-32;
 }
 .headerSize {
-    @apply flex items-center;
+    @apply flex items-center flex-wrap;
 }
 .headerSize2 {
     @apply flex-1 m-2 px-8;
@@ -96,9 +96,6 @@
 }
 .p {
     @apply text-white font-bold text-center;
-}
-.experiencia {
-    @apply flex m-2 flex-wrap;
 }
 .experiencia1 {
     @apply flex-auto text-white font-bold text-center px-4 py-2 m-2 shadow-lg;
@@ -121,10 +118,10 @@
 
 
 .educacaoDiv {
-    @apply text-center font-bold bg-blue-300 rounded m-1;
+    @apply text-center font-bold bg-blue-300 rounded m-1 flex-wrap;
 }
 .educacaoFlex{
-    @apply flex;
+    @apply flex flex-wrap;
 }
 .educacaoFlex1{
     @apply flex-1 text-purple-500 font-bold p-4 m-2;
@@ -230,11 +227,15 @@
 
 
 
+
+.experiencia {
+    @apply flex m-2 flex-wrap;
+}
 .experienciasDiv {
-    @apply text-center font-bold bg-blue-300 rounded m-2 p-4;
+    @apply text-center font-bold bg-blue-300 rounded m-2 p-4 flex-wrap;
 }
 .experienciasFlex {
-    @apply flex p-1;
+    @apply flex p-1 flex-wrap;
 }
 .experienciasFlex1 {
     @apply flex-1 text-purple-500 font-bold p-1 m-1;
