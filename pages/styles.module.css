@@ -84,12 +84,7 @@
 
 
 
-.idiomaFlex{
-    @apply flex;
-}
-.idiomaFlex1{
-    @apply flex-1;
-}
+
 .colorPurple {
     @apply text-purple-500 font-bold;
 }

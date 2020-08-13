@@ -76,12 +76,12 @@ const Index = () => {
             <Link href='/idiomas'>
               <h2 className={styles.h2}>línguas</h2>
             </Link>
-            <div className={styles.idiomaFlex}>
-              <div className={styles.idiomaFlex1}>
+            <div className={styles.idiomasFlex}>
+              <div className={styles.idiomasFlex1}>
                 <h3 className={styles.colorPurple}>Espanhol</h3>
                 <p className={styles.p}>moderado</p>
               </div>
-              <div className={styles.idiomaFlex1}>
+              <div className={styles.idiomasFlex1}>
                  <h3 className={styles.colorPurple}>Inglês</h3>
                  <p className={styles.p}>Basico, pois cursando</p>
               </div>
