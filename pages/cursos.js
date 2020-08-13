@@ -32,10 +32,9 @@ const Cursos = () => {
             </div>            
           </div>
           <div className={styles.cursosDiv}>
-            <div>
               <h2 className={styles.cursosH2}>Curso FullStack Master</h2>
               <div className={styles.cursosFlex}>
-                <div className={styles.cursosFlex2}>
+                  <div className={styles.cursosFlex2}>
                     <img src='../../logoFullStackaAcademy.png' width='20%'/>
                   </div>
                   <div className={styles.cursosFlex2}>
@@ -45,7 +44,6 @@ const Cursos = () => {
                     <img src='../../logoDevPleno.png' width='15%'/>
                   </div>
               </div>
-            </div>
           </div>
           <div className={styles.cursosDiv}>
             <div className={styles.cursosFlex}>

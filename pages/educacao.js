@@ -62,11 +62,11 @@ const Educacao = () => {
               </div>
             </div>
           </div>
-          <div className={styles.educacaoDiv}>
-              <div className={styles.reconheDivLojas}>
-                <div className={styles.reconheFlex}>
-                  <div className={styles.reconheFlex1}>
-                    <img src='../../logoUniversidadeAnhanguera.jpg' alt='logo universidade' width='50%'/>
+
+              <div className={styles.educacaoDivLojas}>
+                <div className={styles.educacaoFlex}>
+                  <div className={styles.educacaoFlex1}>
+                     <img src='../../logoUniversidadeAnhanguera.jpg' alt='logo universidade' width='50%' height='50%'/>
                   </div>
                   <div className={styles.reconheFlex1}>
                     <p><a href='https://www.vestibulares.com.br/anhanguera/?msclkid=562e2479263d1277ee427b4bd918713e&utm_source=bing&utm_medium=cpc&utm_campaign=AEDU%20Presencial%20%3A%3A%20L1%20%3A%3A%20Search%20%3A%3A%20Institucional&utm_term=%2Bsite%20%2Banhanguera&utm_content=Anhanguera%20(novo)' target='_blank'>Site Universidade</a></p>
@@ -76,7 +76,6 @@ const Educacao = () => {
                   </div>
                 </div>
               </div>
-            </div>
         </div>
     )
 }

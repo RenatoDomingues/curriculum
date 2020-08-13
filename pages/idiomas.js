@@ -6,7 +6,7 @@ import PageTitle from '../components/PageTitle'
 
 const Idiomas = () => {
     return (
-        <div className={styles.wrapper}>
+      <div className={styles.wrapper}>
         <PageTitle title='Idiomas'/>
           <div className={styles.idiomasDiv}>
             <Link href='/'>
@@ -60,7 +60,7 @@ const Idiomas = () => {
               </div>
             </div>
           </div>
-        </div>
+      </div>
     )
 }
 

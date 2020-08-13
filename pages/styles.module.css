@@ -119,10 +119,16 @@
 .educacaoH4 {
     @apply text-white font-bold;
 }
+.educacaoDivLojas {
+    @apply text-center font-bold bg-blue-300 rounded m-1;
+}
+
+
+
 
 
 .cursosFlex{
-    @apply flex p-2;
+    @apply flex p-2 flex-wrap;
 }
 .cursosFlex1{
     @apply flex-1 text-purple-500 font-bold p-4 m-2;
@@ -131,16 +137,13 @@
     @apply flex-1 text-purple-500 font-bold;
 }
 .cursosDiv {
-    @apply text-center font-bold bg-blue-300 rounded m-2;
+    @apply flex-wrap text-center font-bold bg-blue-300 rounded p-4 m-2;
 }
 .cursosH2 {
     @apply text-purple-500 text-left p-2 font-bold;
 }
 .cursosH4 {
     @apply text-white font-bold;
-}
-.cursosDiv {
-    @apply text-center font-bold bg-blue-300 rounded m-1;
 }
 .cursosButton {
     @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
@@ -152,7 +155,7 @@
 
 
 .reconheDiv {
-    @apply text-center font-bold bg-blue-300 rounded m-2;
+    @apply text-center font-bold bg-blue-300 rounded m-2 p-2 flex-wrap;
 }
 .reconheDivButton {
     @apply text-center font-bold bg-blue-300 rounded m-1;
@@ -169,20 +172,20 @@
 .reconheStrongP {
     @apply text-purple-500 font-bold;
 }
-.reconheDivLojas {
-    @apply text-center font-bold bg-blue-300 rounded m-1;
-}
 .reconheFlex{
-    @apply flex;
+    @apply flex flex-wrap;
 }
 .reconheFlex1{
     @apply flex-1 text-purple-500 font-bold p-4 m-2;
+}
+.reconheDivLojas {
+    @apply flex-wrap text-center font-bold bg-blue-300 rounded m-1;
 }
 
 
 
 .idiomasDiv {
-    @apply text-center font-bold bg-blue-300 rounded m-2 p-4;
+    @apply flex-wrap text-center font-bold bg-blue-300 rounded m-2 p-2;
 }
 .idiomasFlex{
     @apply flex p-2;
@@ -253,7 +256,7 @@
 
 
 .footerP {
-    @apply bg-blue-300 text-white font-bold text-center px-4 py-2 m-2 shadow-lg rounded;
+    @apply flex-wrap bg-blue-300 text-white font-bold text-center px-4 py-2 m-2 shadow-lg rounded;
 }
 .footerStrong {
     @apply text-purple-500 p-4 font-bold m-2;
