@@ -57,7 +57,37 @@ const Cursos = () => {
               </div>
               <div className={styles.cursosFlex1}>
                 <h3>Tecnologias</h3>
-                <h4 className={styles.cursosH4}> JavaScript, npm, NodeJS, React, express, html, css, FireBase, Tailwuindcss, next e  MySQL</h4>
+                <h4 className={styles.cursosH4}> JavaScript, npm, express, html, css, FireBase, SQLite e Vercel </h4>
+              </div>
+            </div>
+          </div>
+          <div className={styles.cursosDiv}>
+              <h2 className={styles.cursosH2}>Curso RocketSeat</h2>
+              <div className={styles.cursosFlex}>
+                  <div className={styles.cursosFlex2}>
+                    <img src='../../logoRocketSeat1.png' width='20%'/>
+                  </div>
+                  <div className={styles.cursosFlex2}>
+                    <p><a href='https://rocketseat.com.br/' target='_blank'>Site do curso</a> - <a href='https://www.facebook.com/rocketseat' target='_blank'>facebook</a></p>
+                  </div>
+                  <div className={styles.cursosFlex2}>
+                    <img src='../../logoRocketSeat2.png' width='15%'/>
+                  </div>
+              </div>
+          </div>
+          <div className={styles.cursosDiv}>
+            <div className={styles.cursosFlex}>
+              <div className={styles.cursosFlex1}>
+                <h3>Ano</h3>
+                <h4 className={styles.cursosH4}>2020</h4>
+              </div>
+              <div className={styles.cursosFlex1}>
+                <h3>Termino</h3>
+                <h4 className={styles.cursosH4}>2021</h4>
+              </div>
+              <div className={styles.cursosFlex1}>
+                <h3>Tecnologias</h3>
+                <h4 className={styles.cursosH4}> NodeJS, React, MySQL, Tailwindcss e next </h4>
               </div>
             </div>
           </div>
