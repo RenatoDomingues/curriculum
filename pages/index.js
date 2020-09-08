@@ -64,6 +64,7 @@ const Index = () => {
               <h3 className={styles.colorPurple}>FullStack Master</h3>
               <p className={styles.p}> JavaScript, NodeJS, React, express, html, css, FireBase, Tailwindcss, next, npm e  MySQL </p>
           </div>
+          
 
           <div className={styles.div}>
             <Link href='/reconhe'>

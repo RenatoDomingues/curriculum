@@ -61,6 +61,7 @@ const Cursos = () => {
               </div>
             </div>
           </div>
+          
           <div className={styles.cursosDiv}>
               <h2 className={styles.cursosH2}>Curso RocketSeat</h2>
               <div className={styles.cursosFlex}>
