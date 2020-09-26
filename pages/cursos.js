@@ -57,7 +57,7 @@ const Cursos = () => {
               </div>
               <div className={styles.cursosFlex1}>
                 <h3>Tecnologias</h3>
-                <h4 className={styles.cursosH4}> JavaScript, npm, express, html, css, FireBase, SQLite e Vercel </h4>
+                <h4 className={styles.cursosH4}> JavaScript, NodeJS, React, express, html, css, FireBase, Tailwindcss, next, XAMPP, HeidiSQL, npm, vercel e MySQL </h4>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Cursos = () => {
               </div>
               <div className={styles.cursosFlex1}>
                 <h3>Tecnologias</h3>
-                <h4 className={styles.cursosH4}> NodeJS, React, MySQL, Tailwindcss e next </h4>
+                <h4 className={styles.cursosH4}> NodeJS, JavaScript, React, MySQL, Tailwindcss e next </h4>
               </div>
             </div>
           </div>

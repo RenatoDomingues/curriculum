@@ -62,7 +62,10 @@ const Index = () => {
               <h2 className={styles.h2}>Cursos</h2>
             </Link>
               <h3 className={styles.colorPurple}>FullStack Master</h3>
-              <p className={styles.p}> JavaScript, NodeJS, React, express, html, css, FireBase, Tailwindcss, next, npm e  MySQL </p>
+              <p className={styles.p}> JavaScript, NodeJS, React, express, html, css, FireBase, Tailwindcss, next, XAMPP, HeidiSQL, npm, vercel e MySQL </p>
+
+              <h3 className={styles.colorPurple}>RocketSeat</h3>
+              <p className={styles.p}>NodeJS, JavaScript, React, MySQL, Tailwindcss e next</p>
           </div>
           
 

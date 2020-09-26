@@ -12,7 +12,7 @@ const Header = () => {
                       <img className={styles.headerSize3} src='../../photoBackground.jpg' width='90%' height='50%'/>
                     </div>
                     <div className={styles.headerSize2}>
-                      <img className={styles.headerSize3} src='../../fotoCurri.jpg' alt='foto' width='90%' height='50%'/>
+                      <img className={styles.headerSize3} src='../../fotoCurri.jpg' alt='foto' width='40%' height='40%'/>
                     </div>
                     <div className={styles.headerSize2}>
                       <img className={styles.headerSize3} src='../../photoBackgroundDev.jpg' width='90%' height='50%'/>
