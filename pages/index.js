@@ -55,6 +55,7 @@ const Index = () => {
               <h2 className={styles.h2}>Educação</h2>
             </Link>
               <p className={styles.p}>Integração, Patriarca e Universidade Anhanguera</p>
+              <h3 className={styles.colorPurple}>Análise e Desenvolvimento de Sistemas</h3>
           </div>
       
           <div className={styles.div}>
