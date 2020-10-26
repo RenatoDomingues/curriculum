@@ -29,10 +29,10 @@ const Header = () => {
                   <h1>Contate-me</h1> 
                   <div className={styles.pW1}>
                     <div className={styles.pW}>                 
-                      <a href='https://www.linkedin.com/in/renato-domingues-silva-094b971b0/' target='_blank'><img src='logo_linkedin.png' width='05%' alt='icone do LinkedIng'/></a>
+                      <a href='https://www.linkedin.com/in/renato-domingues-silva-094b971b0/' target='_blank'><img src='logo_linkedin.png' width='10%' alt='icone do LinkedIng'/></a>
                     </div>
                     <div className={styles.pW}>
-                      <a href='https://github.com/RenatoDomingues' target='_blank'><img src='logo_github.png' width='05%' alt='Icone do GitHub'/></a>
+                      <a href='https://github.com/RenatoDomingues' target='_blank'><img src='logo_github.png' width='10%' alt='Icone do GitHub'/></a>
                     </div>
                   </div>
                   <p className={styles.headerEmail}>
