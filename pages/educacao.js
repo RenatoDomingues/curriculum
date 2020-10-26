@@ -69,10 +69,13 @@ const Educacao = () => {
                      <img src='../../logoUniversidadeAnhanguera.jpg' alt='logo universidade' width='50%' height='50%'/>
                   </div>
                   <div className={styles.reconheFlex1}>
-                    <p><a href='https://www.vestibulares.com.br/anhanguera/?msclkid=562e2479263d1277ee427b4bd918713e&utm_source=bing&utm_medium=cpc&utm_campaign=AEDU%20Presencial%20%3A%3A%20L1%20%3A%3A%20Search%20%3A%3A%20Institucional&utm_term=%2Bsite%20%2Banhanguera&utm_content=Anhanguera%20(novo)' target='_blank'>Site Universidade</a></p>
+                  <p><a href='https://www.vestibulares.com.br/anhanguera/?msclkid=562e2479263d1277ee427b4bd918713e&utm_source=bing&utm_medium=cpc&utm_campaign=AEDU%20Presencial%20%3A%3A%20L1%20%3A%3A%20Search%20%3A%3A%20Institucional&utm_term=%2Bsite%20%2Banhanguera&utm_content=Anhanguera%20(novo)' target='_blank'><img src='www.png' width='08%' alt='Icone do site'/></a>
+                    </p>
                   </div>
+
                   <div className={styles.reconheFlex1}>
-                    <p><a href='https://www.facebook.com/AnhangueraEdu/photos/a.357083814329730/2684440794927342' target='_blank'>Facebook</a></p>
+                    <p><a href='https://www.facebook.com/AnhangueraEdu/photos/a.357083814329730/2684440794927342' target='_blank'><img src='logo_facebook2.png' width='08%' alt='Icone do Facebook'/></a>
+                    </p>
                   </div>
                 </div>
               </div>

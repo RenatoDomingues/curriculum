@@ -38,7 +38,11 @@ const Cursos = () => {
                     <img src='../../logoFullStackaAcademy.png' width='20%'/>
                   </div>
                   <div className={styles.cursosFlex2}>
-                    <p><a href='https://devpleno.com' target='_blank'>Site do curso</a> - <a href='https://www.facebook.com/groups/516548602154162' target='_blank'>facebook</a></p>
+                    <p><a href='https://www.facebook.com/groups/516548602154162' target='_blank'><img src='logo_facebook.png' width='08%' alt='Icone do Facebook'/></a>
+                    </p>
+
+                    <p><a href='https://devpleno.com' target='_blank'><img src='www.png' width='08%' alt='Icone do site'/></a>
+                    </p>
                   </div>
                   <div className={styles.cursosFlex2}>
                     <img src='../../logoDevPleno.png' width='15%'/>
@@ -69,7 +73,11 @@ const Cursos = () => {
                     <img src='../../logoRocketSeat1.png' width='20%'/>
                   </div>
                   <div className={styles.cursosFlex2}>
-                    <p><a href='https://rocketseat.com.br/' target='_blank'>Site do curso</a> - <a href='https://www.facebook.com/rocketseat' target='_blank'>facebook</a></p>
+                    <p><a href='https://www.facebook.com/rocketseat' target='_blank'><img src='logo_facebook.png' width='08%' alt='Icone do Facebook'/></a>
+                    </p>
+                    <p>
+                    <a href='https://rocketseat.com.br/' target='_blank'><img src='www.png' width='08%' alt='Icone do site'/></a>
+                    </p>
                   </div>
                   <div className={styles.cursosFlex2}>
                     <img src='../../logoRocketSeat2.png' width='15%'/>

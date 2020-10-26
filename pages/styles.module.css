@@ -1,6 +1,6 @@
 
 .wrapper {
-    @apply bg-blue-200 m-2;
+    @apply bg-orange-400 m-2;
     contain: mx-auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -34,7 +34,7 @@
     @apply flex p-1;
 }
 .logosFlex1 {
-    @apply flex-1 text-purple-500 font-bold p-1 m-1 shadow-lg;
+    @apply flex-1 text-white font-bold p-1 m-1 shadow-lg;
 }
 .logosH3 {
     @apply text-white font-bold text-left p-1;
@@ -43,13 +43,13 @@
 
 
 .headeRwrapper {
-    @apply bg-blue-200 m-2;
+    @apply bg-orange-300 m-2;
 }
 .headerH1 {
-    @apply border-solid text-purple-500 font-bold shadow-lg;
+    @apply border-solid text-white font-bold shadow-lg;
 }
 .headerH2 {
-    @apply text-purple-500 font-bold;
+    @apply text-white font-bold;
 }
 .headerP1 {
     @apply text-white font-bold text-center cursor-pointer;
@@ -66,18 +66,33 @@
 .headerSize2 {
     @apply flex-1 m-2 px-8 flex-wrap;
 }
+.headerLogoGitHubLinkedIn{
+    @apply flex items-center h-24;
+}
 
 
 
 
 .div {
-    @apply text-center font-bold bg-blue-300 p-4 rounded m-2;
+    @apply text-center font-bold bg-orange-300 p-4 rounded m-2;
 }
 .h2 {
-    @apply border-solid text-purple-500 font-bold cursor-pointer shadow-lg;
+    @apply border-solid text-white font-bold cursor-pointer shadow-lg;
 }
 .p {
     @apply text-white font-bold text-center;
+}
+.pContateMe{
+    @apply text-center text-white font-bold bg-orange-300 rounded m-1 flex-wrap;
+}
+.headerEmail {
+    @apply text-white font-bold text-center m-2 p-2;
+}
+.pW1{
+    @apply flex content-center flex-wrap;
+}
+.pW{
+    @apply w-1/3;
 }
 
 
@@ -86,7 +101,7 @@
 
 
 .colorPurple {
-    @apply text-purple-500 font-bold;
+    @apply text-white font-bold;
 }
 .size {
     @apply flex items-center;
@@ -97,25 +112,25 @@
 
 
 .educacaoDiv {
-    @apply text-center font-bold bg-blue-300 rounded m-1 flex-wrap;
+    @apply text-center font-bold bg-orange-300 rounded m-1 flex-wrap;
 }
 .educacaoFlex{
     @apply flex flex-wrap;
 }
 .educacaoFlex1{
-    @apply flex-1 text-purple-500 font-bold p-4 m-2;
+    @apply flex-1 text-white font-bold p-4 m-2;
 }
 .educacaoH2 {
-    @apply text-purple-500 text-left p-4 font-bold m-2;
+    @apply text-white text-center p-4 font-bold m-2;
 }
 .educacaoButton {
-    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
+    @apply bg-orange-400 text-white font-bold p-2 m-2 rounded shadow;
 }
 .educacaoH4 {
     @apply text-white font-bold;
 }
 .educacaoDivLojas {
-    @apply text-center font-bold bg-blue-300 rounded m-1;
+    @apply text-center font-bold bg-orange-300 rounded m-1;
 }
 
 
@@ -126,22 +141,22 @@
     @apply flex p-2 flex-wrap;
 }
 .cursosFlex1{
-    @apply flex-1 text-purple-500 font-bold p-4 m-2;
+    @apply flex-1 text-white font-bold p-4 m-2;
 }
 .cursosFlex2{
-    @apply flex-1 text-purple-500 font-bold;
+    @apply flex-1 text-white font-bold;
 }
 .cursosDiv {
-    @apply flex-wrap text-center font-bold bg-blue-300 rounded p-4 m-2;
+    @apply flex-wrap text-center font-bold bg-orange-300 rounded p-4 m-2;
 }
 .cursosH2 {
-    @apply text-purple-500 text-left p-2 font-bold;
+    @apply text-white text-center p-2 font-bold;
 }
 .cursosH4 {
     @apply text-white font-bold;
 }
 .cursosButton {
-    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
+    @apply bg-orange-400 text-white font-bold p-2 m-2 rounded shadow;
 }
 .cursosP {
     @apply text-white font-bold text-center;
@@ -150,49 +165,49 @@
 
 
 .reconheDiv {
-    @apply text-center font-bold bg-blue-300 rounded m-2 p-2 flex-wrap;
+    @apply text-center font-bold bg-orange-300 rounded m-2 p-2 flex-wrap;
 }
 .reconheDivButton {
-    @apply text-center font-bold bg-blue-300 rounded m-1;
+    @apply text-center font-bold bg-orange-300 rounded m-1;
 }
 .reconheH2 {
-    @apply text-purple-500 text-left p-4 font-bold m-2;
+    @apply text-white text-center p-2 font-bold;
 }
 .reconheP {
     @apply text-white font-bold text-center p-2;
 }
 .reconheButton {
-    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
+    @apply bg-orange-400 text-white font-bold p-2 m-2 rounded shadow;
 }
 .reconheStrongP {
-    @apply text-purple-500 font-bold;
+    @apply text-white font-bold;
 }
 .reconheFlex{
     @apply flex flex-wrap;
 }
 .reconheFlex1{
-    @apply flex-1 text-purple-500 font-bold p-4 m-2;
+    @apply flex-1 text-white font-bold p-4 m-2;
 }
 .reconheDivLojas {
-    @apply flex-wrap text-center font-bold bg-blue-300 rounded m-1;
+    @apply flex-wrap text-center font-bold bg-orange-400 rounded m-1;
 }
 
 
 
 .idiomasDiv {
-    @apply flex-wrap text-center font-bold bg-blue-300 rounded m-2 p-2;
+    @apply flex-wrap text-center font-bold bg-orange-300 rounded m-2 p-2;
 }
 .idiomasFlex{
     @apply flex p-2 flex-wrap;
 }
 .idiomasFlex1{
-    @apply flex-1 text-purple-500 font-bold p-1 m-2 shadow-lg;
+    @apply flex-1 text-white font-bold p-1 m-2 shadow-lg;
 }
 .idiomasFlexButton{
-    @apply flex-1 text-purple-500 font-bold p-1 m-2;
+    @apply flex-1 text-white font-bold p-1 m-2;
 }
 .idiomasH2 {
-    @apply text-purple-500 text-left p-4 font-bold m-2;
+    @apply text-white text-center p-4 font-bold m-2;
 }
 .idiomasH4 {
     @apply text-white font-bold;
@@ -207,7 +222,7 @@
     @apply text-center font-bold bg-blue-300 rounded m-1;
 }
 .idiomasButton {
-    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
+    @apply bg-orange-400 text-white font-bold p-2 m-2 rounded shadow;
 }
 
 
@@ -221,19 +236,19 @@
     @apply flex-1 p-4 m-2 rounded shadow-lg;
 }
 .experienciasDiv {
-    @apply text-center font-bold bg-blue-300 rounded m-2 p-4 flex-wrap;
+    @apply text-center font-bold bg-orange-300 rounded m-2 p-4 flex-wrap;
 }
 .experienciasFlex {
     @apply flex p-1 flex-wrap;
 }
 .experienciasFlex1 {
-    @apply flex-1 text-purple-500 font-bold p-1 m-1;
+    @apply flex-1 text-white font-bold p-1 m-1;
 }
 .experienciaSflex1 {
-    @apply flex-1 text-purple-500 font-bold p-1 m-1 shadow-lg;
+    @apply flex-1 text-white font-bold p-1 m-1 shadow-lg;
 }
 .experienciasH2 {
-    @apply text-purple-500 text-left p-4 font-bold m-2;
+    @apply text-white text-center p-4 font-bold m-2;
 }
 .experienciasP {
     @apply text-white font-bold text-center p-1;
@@ -242,17 +257,17 @@
     @apply text-white font-bold text-center p-1;
 }
 .experienciasDivButton {
-    @apply text-center font-bold bg-blue-300 rounded m-1;
+    @apply text-center font-bold bg-orange-400 rounded m-1;
 }
 .experienciasButton {
-    @apply bg-purple-500 text-white font-bold p-2 m-2 rounded shadow-outline;
+    @apply bg-orange-400 text-white font-bold p-2 m-2 rounded shadow;
 }
 
 
 
 .footerP {
-    @apply flex-wrap bg-blue-300 text-white font-bold text-center px-4 py-2 m-2 shadow-lg rounded;
+    @apply flex-wrap bg-orange-300 text-white font-bold text-center px-4 py-2 m-2 shadow-lg rounded;
 }
 .footerStrong {
-    @apply text-purple-500 p-4 font-bold m-2;
+    @apply text-white p-4 font-bold m-2;
 }

@@ -49,10 +49,12 @@ const Reconhe = () => {
                   <img src='../../logoLojasCem.png' width='50%'/>
                 </div>
                 <div className={styles.reconheFlex1}>
-                    <p><a href='https://www.lojascem.com.br/site/' target='_blank'>Site oficial</a></p>
+                    <p><a href='https://www.lojascem.com.br/site/' target='_blank'><img src='www.png' width='08%' alt='Icone do Site'/></a>
+                    </p>
                 </div>
                 <div className={styles.reconheFlex1}>
-                      <p><a href='https://www.facebook.com/lojascem' target='_blank'>Facebook</a></p>
+                      <p><a href='https://www.facebook.com/lojascem' target='_blank'><img src='logo_facebook.png' width='08%' alt='Icone do Facebook'/></a>
+                    </p>
                 </div>
               </div>
             </div>
