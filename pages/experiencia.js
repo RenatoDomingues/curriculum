@@ -36,7 +36,7 @@ const Experiencias = () => {
             <h2 className={styles.experienciasH2}>Experiências</h2>
             <div className={styles.experienciasFlex}>
               <div className={styles.experienciaSflex1}>
-                 <h4 className={styles.experienciasH4}>01/2018 a 05/2020</h4>
+                 <h4 className={styles.experienciasH4}>01/2018 a atual</h4>
               </div>
               <div className={styles.experienciaSflex1}>
                 <h4 className={styles.experienciasH4}>Motorista</h4>
